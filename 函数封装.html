@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function getSum(x,y,z) {
+          let sum =x-y-z
+          document.write(`您的银行卡剩余金额为${sum}`)
+          
+       }
+       let yinhangka = prompt('请输入银行卡余额')
+       let shisu = prompt('请输入食宿金额')
+       let shenghuofei = prompt('请输入生活费金额')
+       getSum(yinhangka,shisu,shenghuofei)
+    </script>
+</body>
+</html>
