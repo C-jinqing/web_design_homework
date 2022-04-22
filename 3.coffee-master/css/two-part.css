@@ -1,0 +1,416 @@
+.black-back {
+	width: 100%;
+	height: 5300px;
+	background-image: url(../images/broken_noise.png);
+	text-align: center;
+}
+.two-part-introduce1 {
+	padding-top: 126px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+    left: 100px;
+}
+.left-pic {
+	position: relative;
+	left: -560px;
+}
+.wenzi-1 {
+	position: relative;
+	top: -460px;
+	text-align: left;
+	left: 54%;
+}
+.wenzi-1 h2 {
+	font-size: 30px;
+    color: #fff;
+    font-family: "Satisfy", cursive;
+    margin-bottom: 20px;
+}
+.wenzi-1 p {
+	font-family: "Cormorant Garamond", Georgia, serif;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	width: 457.5px;
+	height: 189px;
+	text-align: left;
+	padding-bottom: 30px;
+	font-weight: 400;
+}
+
+.wenzi-1 p a{
+	display: block;
+	text-align: center;
+	width: 147px;
+	height: 40px;
+	border: 2px solid #ea272d;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 40px;
+	text-transform:uppercase;
+	background: transparent;
+	position: relative;
+	top: -100px;
+}
+.wenzi-1 p a:hover {
+	background: #ea272d;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.upup {
+	margin-top: -450px;
+	text-align: left;
+	position: absolute;
+	left: 30%;
+}
+.two-part2-introduce2 {
+	margin-bottom: 200px;
+}
+.two-part2-introduce2 h2 {
+	color: #fff;
+	font-family: "Satisfy", cursive;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	font-size: 30px;
+	margin: 0 0 20px 0;
+	line-height: 1.1;
+}
+.two-part2-zi p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	margin: 0 0 10px;
+	width: 555px;
+    height: 165px;
+}
+
+
+/*瀑布流式展示food-introduce*/
+.food-introduce img {
+	width: 252.5px;
+	margin-bottom: 30px;
+}
+.food-1,.food-2,.food-3,.food-4 {
+	float: left;
+	width: 252.5px;
+	padding: 0 40px 0 0;
+}
+.food-introduce h3 {
+	font-size: 24px;
+	color: #fff;
+	line-height: 1.1;
+}
+.food-introduce span,.food-introduce span sup{
+	font-size: 20px;
+	color: #fee856;
+}
+.food-introduce span {
+	font-size: 30px;
+	margin-bottom: 20px;
+	display: block;
+}
+.food-introduce span sup {
+	top: -0.5em;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+.food-introduce p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+.food-2,.food-4 {
+	margin-top: 150px;
+}
+.two-part3-testimony {
+	clear: both;
+	padding: 126px 0 60px 0;
+}
+.two-part3-testimony h2 {
+	color: #fff;
+	font-family: "Satisfy", cursive;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.1;
+}
+.Testimony-p p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	width: 555px;
+    height: 165px;
+}
+
+.picture-zizi p {
+	width: 612.5px;
+	font-size: 40px;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 30px;
+	opacity: 1;
+	border: none;
+	position: relative;
+	top: -615px;
+	left: 515px;
+}
+.movel {
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.movel:hover {
+	padding-left: 400px;
+}
+
+.author cite{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 30px;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+/*event块*/
+.events-all {
+	margin: 0 auto;
+	padding-left: 225px;
+}
+.events {
+	margin-top: 350px;
+	width: 750px;
+	text-align: center;
+}
+.events h2 {
+	font-family: "Satisfy", cursive;
+	padding-bottom: 20px;
+}
+.events p {
+	color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*三个块*/
+.kuai-three {
+	margin: 200px 0;
+}
+.kuai-three img {
+	width: 360px;
+	height: 300px;
+}
+.fei {
+	float: left;
+	width: 360px;
+	margin: 0 15px;
+	background: rgba(255, 255, 255, 0.03);
+}
+.text {}
+.biankuang {
+	padding: 30px;
+
+}
+.text h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+.text p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	padding-bottom: 30px;
+}
+.stuff-icon i{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	padding-right: 5px;
+}
+.stuff-icon li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.stuff-icon li:first-child{
+	margin-left: 0!important;
+}
+.stuff-icon li:last-child {
+	float: right;
+}
+.stuff-icon a:last-child {
+	color: #ea272d;
+}
+
+.stuff-icon i:hover {
+	color: #ea272d;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+/*背景透明部分*/
+.part-touming {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	margin: 0 auto;
+}
+.touming {
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	width: 750px;
+	padding-left: 225px;
+	padding: 150px 0;
+}
+.touming h2 {
+	font-family: "Satisfy", cursive;
+	color: #fff;
+	margin-bottom: 20px !important;
+}
+.touming p {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.touming a {
+	margin: 0 auto;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	background: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px !important;
+	letter-spacing: 1px;
+	border: 2px solid #ea272d;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.touming a:hover {
+	background: #ea272d;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+/*footer*/
+.footer {
+	padding: 150px 0;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	background-image: url(../images/broken_noise.png);
+}
+.footer-list {
+	margin: 0 auto;
+	padding-left: 700px;
+}
+.list1,.list2,.list3,.list4 {
+	float: left;
+	padding-right: 150px;
+}
+.list1 h4,.list2 h4,.list3 h4,.list4 h4 {
+	color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.list1 {
+	width: 350px;
+}
+.list1 p {
+	color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.footer li,.footer a{
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.footer a:hover {
+	text-decoration: underline;
+	color: #ea272d;
+}
+.copyright {
+	padding-top: 150px;
+	clear: both;
+}
+.copy-center {
+	text-align: center;
+}
+.copyright a {
+	color: #ea272d!important;
+}
+.copyright p {
+	color: rgba(255, 255, 255, 0.3);
+}
+.icons li {
+	display: inline-block;
+	padding: 30px 10px 0 10px;
+}
+.icons i{
+	font-size: 20px;
+	color: #ea272d;
+}
+/*置顶按钮*/
+#topAnchor {
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	width: 50px;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.5);
+}
+#topAnchor a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+#topAnchor i {
+	font-size: 20px;
+	padding: 15px;
+	color: #fff;
+}
+#topAnchor i:hover {
+	color: #ea272d;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+.header-nav {
+	background:transparent;
+}
+.header-logo {
+	text-align: center;
+	padding-top: 15px;
+}
+.header-logo a {
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.7;
+	color: #fff!important;
+	font-family: "Cormorant Garamond", Georgia, serif;
+}
+.header-logo a span {
+	font-weight: 700;
+	font-size: 42px;
+	color: #ea272d;
+}
+
+.header-menu {
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.active a{
+	position: relative;
+}
+.active a:after {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	right: 0;
+	content: '';
+	width: 30px;
+	height: 2px;
+	background: #ea272d;
+	margin: 0 auto;
+}
+.header-menu ul li{
+	display: inline-block;
+}
+.header-menu ul li a {
+	color: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	font-size: 14px;
+	padding: 10px 15px 17px 15px;
+}
+/*二级菜单*/
+.header-menu ul li ul {
+	width: 100px;
+	display: none;
+}
+.header-menu ul li ul li {
+	color: #fff;
+}
+
+.header-menu ul li a:hover {
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.header-menu ul li:hover a {
+	color: white;
+}
+
+.header-menu ul li:hover ul{
+	border-radius: 4%;
+	background: #ea272d;
+	padding: 20px;
+	display: block;
+	position: absolute;
+	top: 8em;
+	left: ;
+	width: 100px;
+	z-index: 100;
+}
+
+.header-menu ul li:hover ul li ul{
+	display: none;
+}
+
+.header-menu ul li:hover ul li a{
+	text-align: left;
+	display: block;
+	color: #fff;
+	height: auto;
+	line-height: 2em;
+	padding: 2px 0;
+	width: 100px;
+	z-index: 100;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+/**/
+.header-all {
+	overflow: hidden;
+	background: rgba(0,0,0,0.6);
+}
+.header-zi {
+	width: 100%;
+	height: 1210px;
+}
+.zizi {
+	text-align: center;
+	padding-top: 350px;
+}
+.zizi h1 {
+	font-size: 80px;
+	font-weight: 700;
+	color: #fff;
+}
+.zizi h1 em {
+	font-style: italic;
+	font-size: 80px;
+	font-weight: 600;
+	color: #fff;
+}
+.zizi h2, .zizi h2 a{
+	font-size: 30px;
+	line-height: 1.5;
+	font-style: italic;
+	color: #fff;
+	font-weight: 500;
+}
+.zizi h2 a{
+	display: inline-block;
+	position: relative;
+}
+.zizi h2 a:before {
+	background: #ea272d;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+#tab-list {
+	width: 1200px;
+	height: auto;
+	margin-top: -250px;
+}
+#ul1 {
+	height: 35px;
+	text-align: right;
+}
+#tab-list li img {
+	width: 555px;
+	float: right;
+}
+.one{
+	padding-left: 110px;
+}
+#ul1 li {
+	display: inline-block;
+    margin-right: 10px;
+    width: 8px!important;
+    height: 8px!important;
+    border-radius: 50%!important;
+    border: 2px solid #ea272d;
+    background: #ea272d;
+}
+#ul1 li:hover {
+	cursor: pointer;
+	border: 2px solid #fff;
+	background-color: transparent;
+}
+#ul1 li.active {
+	border: 2px solid #fff;
+	background-color: transparent;
+}
+#tab-list div {}
+#tab-liat div li {}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+
+/*固定字*/
+.gudingzi {
+	float: left;
+	margin-top: 35px;
+}
+.gudingzi h2 {
+	font-family: "Satisfy", cursive;
+	color: #fff;
+	font-size: 30px;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+.gudingzi p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	width: 410px;
+	float: left;
+}
+.slider {
+	margin-top: -160px;
+}
+.zi-down {
+	padding-top: 250px;
+}
+.style-zi {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	line-height: 1.5;
+	width: 450px;
+	margin-top: 20px;
+}
+.btn {
+	color: #fff;
+	display: block;
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	border: 2px solid #ea272d;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.btn:hover {
+	background: #ea272d;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
